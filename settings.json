@@ -1,0 +1,57 @@
+{
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Min Dark",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "symbols.hidesExplorerArrows": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [80, 120],
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderLineHighlight": "all",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "workbench.statusBar.visible": false,
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset"
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.font.family": "Geist",
+  "workbench.layoutControl.enabled": false,
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 2px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"  }
+}
